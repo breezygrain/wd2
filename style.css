@@ -48,6 +48,7 @@ main {
    }
 main h2 {
    color: navy;
+   text-align:center;
 }
 main p {
    color: white;
@@ -61,16 +62,6 @@ footer {
 footer p {
    color: white;
    font-size: 1em;
-}
-
-.container1 { /*for index.html*/
- display: grid;
- grid-template-columns: auto 1fr;
- grid-gap:.5em;
- margin:1%;
- grid-template-areas:
-   "header header"
-   "nav main"
-   "footer footer"
+   margin:.5em;
 }
 
